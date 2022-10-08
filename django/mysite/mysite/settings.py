@@ -40,9 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'django_summernote',
+    'django.contrib.sitemaps',
+    'crispy_forms',
 ]
-
-INSTALLED_APPS += ('django_summernote', 'django.contrib.sitemaps',) 
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
