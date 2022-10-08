@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'blog',
 ]
 
-INSTALLED_APPS += ('django_summernote', ) 
+INSTALLED_APPS += ('django_summernote', 'django.contrib.sitemaps',) 
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
